@@ -1,5 +1,5 @@
 // Andrew Yiyun Zhu
-// Prcessing Web Data with Elastic MapReduce
+// Prcessing Web Data with AWS EMR (Elastic MapReduce)
 
 
 This project's task is to extrapolate every email address that appears on any web page and output the email address
