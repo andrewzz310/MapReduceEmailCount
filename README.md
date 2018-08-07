@@ -29,7 +29,7 @@ As a result there can be many duplicate pairs of <email,domain> as the output ra
 having unique emails for every domain since there are many records in a file. Thus, we move on to the next step (reduce) in order to solve this.
 
 
-"EmailSumRducer.java" edu/seattleu/crawl/warc/EmailSumReducer
+"EmailSumReducer.java" edu/seattleu/crawl/warc/EmailSumReducer
 
 This reducer class takes input of one email and many domains <key,value>. It then removes duplicate domains
 for that one email if there are any. It then is able to add up all the counts of unique domains for that one 
