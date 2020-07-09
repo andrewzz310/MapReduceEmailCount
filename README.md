@@ -1,8 +1,6 @@
-// Andrew Yiyun Zhu
-// Prcessing Web Data with AWS EMR (Elastic MapReduce)
+# Scraping Web Data with AWS EMR (Elastic MapReduce)
 
-
-This project's task is to extrapolate every email address that appears on any web page and output the email address
+> This project's task is to extrapolate every email address that appears on any web page and output the email address
 and the number of domains on which that email address is found. The data is from the common-crawl's public dataset of web-crawl data
 made available on AWS-S3. The segment used is s3://commoncrawl/crawl-data/CC-MAIN-2018-05/segments/1516084886237.6/warc.
 The project is done using AWS-EMR(Elastic Map Reduce) combined with Hadoop's Map Reduce framework.
