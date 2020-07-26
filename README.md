@@ -6,7 +6,7 @@ made available on AWS-S3. The segment used is s3://commoncrawl/crawl-data/CC-MAI
 The project is done using AWS-EMR(Elastic Map Reduce) combined with Hadoop's Map Reduce framework.
 
 
-# # Source Code:
+## Source Code:
 >Main Class: edu/seattleu/crawl/warc/WarcEmailCount
 
 >"WarcEmailCount.java"--- This class is the main class to run as argument[0] in EMR. The class essentially runs the job
@@ -36,7 +36,7 @@ email address show up on the WARC dataset sergment in common-crawl.
 
 
 
-# # How to run in mapReduce
+## How to run in mapReduce
 1) Make new bucket on S3
 2) Place the jar file <> into that bucket
 3) create cluster in EMR and create custom jar file
