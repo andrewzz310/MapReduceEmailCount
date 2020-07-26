@@ -18,8 +18,6 @@ import org.archive.io.warc.WARCReaderFactory;
  * The WARC File Record Reader processes a single compressed input.
  * The Record Reader returns a single WARC ArchiveReader that can contain
  * numerous individual documents, each document handled in a single mapper.
- *
- * @author Stephen Merity (Smerity)
  */
 public class WARCFileRecordReader extends RecordReader<Text, ArchiveReader> {
 	private String arPath;

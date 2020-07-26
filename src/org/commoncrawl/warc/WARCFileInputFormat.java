@@ -14,8 +14,6 @@ import org.archive.io.ArchiveReader;
 /**
  * Minimal implementation of FileInputFormat for WARC files.
  * Hadoop is told that splitting these compressed files is not possible.
- *
- * @author Stephen Merity (Smerity)
  */
 public class WARCFileInputFormat extends FileInputFormat<Text, ArchiveReader> {
 
